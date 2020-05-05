@@ -47,7 +47,7 @@ class CalculatorTest {
     }
 
     @Test
-    void testSUbtractOneFromCalculator() {
+    void testSubtractOneFromCalculator() {
         Calculator calc = new Calculator();
         calc.subtract(1);
         int result = calc.getTotal();
